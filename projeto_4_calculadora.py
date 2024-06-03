@@ -8,7 +8,7 @@ def calcular(num_1, num_2,oper):
     elif oper == 4:
         return num_1 / num_2
     else:
-        return 'Operação inválida'
+        return 0
     
 if __name__ == '__main__':
     num_1 = int(input('Digite o primeiro número: '))
